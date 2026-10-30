@@ -1,0 +1,42 @@
+
+> test
+> node --test tests/*.test.js
+
+✔ six distinct cartridges have reachable objectives and independent state (2.397958ms)
+✔ Ghost Flight flap reverses falling, towers score once, floor ends flight (0.157625ms)
+✔ Boot Breaker uses joystick, launch, paddle-angle bounce and brick collision (0.17825ms)
+✔ Boot Breaker loses three balls and advances a cleared crypt (0.090959ms)
+✔ Blimp Jump lands only when falling, scrolls, breaks fragile platforms, and dies below view (0.163ms)
+✔ Blimp Jump emergency lift has a real cooldown (0.073709ms)
+✔ Gravekeeper collects souls, repels shades, and limits collision damage (0.1685ms)
+✔ The Last Signal shoots while held, destroys contacts, and loses fuses (0.354791ms)
+✔ Dead Frequency rewards accurate tuning, penalizes false locks, times out and ends (0.140958ms)
+✔ all engines remain finite under sustained mixed controls (4.970667ms)
+✔ all six objectives finish and freeze the simulation (0.224667ms)
+✔ Ghost Flight can be completed through eight naturally spawned towers (1.094541ms)
+✔ generated ascent platforms stay within a reachable horizontal step (0.735833ms)
+✔ six accurate frequency locks complete the ritual (0.069084ms)
+✔ Dead Frequency accepts the physical dial, clamps endpoints, and retains joystick fallback (0.061541ms)
+✔ LCD keeps room information through every eye phase (1.293584ms)
+✔ LCD radio follows dial and lock state; all game screens fit 16x2 (0.429208ms)
+✔ LCD extension entry stays visible while the eye watches (0.106708ms)
+✔ seven segment counts callers, lives and clears the menu (0.171792ms)
+✔ console LCD reveals extension after tuning without eye-warning overrides (0.266ms)
+✔ six callers can be connected with normal navigation and timed release (3.026875ms)
+✔ watching punishes held current, silence recovers, idle never kills (1.664167ms)
+✔ wrong socket cannot score and sustained noise loses the shift (0.18625ms)
+✔ partial connection survives releasing the button and the waking cycle (0.108416ms)
+✔ keypad mode requires correct extension before a call can connect (0.151708ms)
+✔ wrong codes add attention, clear works, hangup resets partial calls with cooldown (0.078916ms)
+✔ keypad-assisted six-call run is winnable (0.803958ms)
+✔ console loop requires tuning, code, interpretation and a safe connection (0.189042ms)
+✔ detuning pauses a connection and emergency hangup trades progress for attention (0.169292ms)
+✔ complete six-caller console shift succeeds with measured navigation and all physical actions (1.546917ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 60.46525

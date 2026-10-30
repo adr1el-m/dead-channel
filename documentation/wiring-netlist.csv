@@ -1,0 +1,32 @@
+board,pin,target,series_component,note
+ESP32,3V3,Joystick VCC and potentiometer outer leg,,
+ESP32,GND,Joystick GND / pot outer / buttons / LED cathodes / buzzer negative,,
+ESP32,32,Joystick VRx,,
+ESP32,33,Joystick VRy,,
+ESP32,27,Joystick SW,,Buttons to GND; internal pull-up
+ESP32,25,Main connect button,,Buttons to GND; internal pull-up
+ESP32,34,Potentiometer wiper,,
+ESP32,18,green LED anode,330 ohm,LED cathode to GND
+ESP32,19,yellow LED anode,330 ohm,LED cathode to GND
+ESP32,23,red LED anode,330 ohm,LED cathode to GND
+ESP32,26,Buzzer positive,1 kohm,Buzzer negative to GND; device type unresolved
+Uno,5V,LCD VCC,,
+Uno,GND,LCD GND + display commons 3/8,,
+Uno,A4,LCD SDA,,
+Uno,A5,LCD SCL,,
+Uno,2,5161AS pin 7 / a,330 ohm,"Front view, decimal at bottom right"
+Uno,3,5161AS pin 6 / b,330 ohm,"Front view, decimal at bottom right"
+Uno,4,5161AS pin 4 / c,330 ohm,"Front view, decimal at bottom right"
+Uno,5,5161AS pin 2 / d,330 ohm,"Front view, decimal at bottom right"
+Uno,6,5161AS pin 1 / e,330 ohm,"Front view, decimal at bottom right"
+Uno,7,5161AS pin 9 / f,330 ohm,"Front view, decimal at bottom right"
+Uno,8,5161AS pin 10 / g,330 ohm,"Front view, decimal at bottom right"
+Nano,D2,Keypad tail contact 1,,"Contact order: front view, tail down, left to right"
+Nano,D3,Keypad tail contact 2,,"Contact order: front view, tail down, left to right"
+Nano,D4,Keypad tail contact 3,,"Contact order: front view, tail down, left to right"
+Nano,D5,Keypad tail contact 4,,"Contact order: front view, tail down, left to right"
+Nano,D6,Keypad tail contact 5,,"Contact order: front view, tail down, left to right"
+Nano,D7,Keypad tail contact 6,,"Contact order: front view, tail down, left to right"
+Nano,D8,Keypad tail contact 7,,"Contact order: front view, tail down, left to right"
+Nano,D9,Keypad tail contact 8,,"Contact order: front view, tail down, left to right"
+Nano,D10,Emergency button,,Other button terminal to Nano GND

@@ -1,0 +1,23 @@
+# Local toolchains and compiled firmware
+.tools/
+.arduino/
+build/
+**/build/
+arduino-cli.yaml
+# Generated artifacts and local previews
+dist/
+output/
+tmp/
+.playwright-mcp/
+documentation/tools/
+documentation/preview-desktop.png
+# Host-specific or secret configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python / macOS
+__pycache__/
+*.py[cod]
+.DS_Store

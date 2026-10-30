@@ -1,0 +1,15 @@
+import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const out=path.join(root,'dist');
+await rm(out,{recursive:true,force:true});
+await mkdir(out,{recursive:true});
+await cp(path.join(root,'web'),out,{recursive:true,filter:src=>!src.endsWith('.png')&&!src.endsWith('.md')});
+const index=path.join(out,'index.html');
+let html=await readFile(index,'utf8');
+html=html.replace('<html lang="en">','<html lang="en" data-mode="public">');
+html=html.replace('<meta name="theme-color"', '<meta name="description" content="A Halloween telephone exchange game. Tune six ghostly callers, dial their extensions and connect them before the operator wakes. Play free with keyboard or touch."><meta name="theme-color"');
+await writeFile(index,html);
+await writeFile(path.join(out,'.nojekyll'),'');
+console.log('Public browser demo built in dist/. No USB server or credentials are included.');

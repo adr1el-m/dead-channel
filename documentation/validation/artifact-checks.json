@@ -1,0 +1,18 @@
+{
+  "pdf_pages": 15,
+  "pdf_bytes": 7174613,
+  "diagrams_svg": 6,
+  "diagrams_png": 6,
+  "photographs": 5,
+  "html_missing_local_assets": [],
+  "responsive_widths_checked": [
+    390,
+    768,
+    1440
+  ],
+  "horizontal_overflow": false,
+  "node_tests_passed": 30,
+  "archives_integrity": "pass",
+  "publication": "not performed",
+  "video": "not supplied; deliberate editorial slot"
+}

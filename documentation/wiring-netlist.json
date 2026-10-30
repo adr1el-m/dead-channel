@@ -1,0 +1,219 @@
+[
+  {
+    "board": "ESP32",
+    "pin": "3V3",
+    "target": "Joystick VCC and potentiometer outer leg",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "ESP32",
+    "pin": "GND",
+    "target": "Joystick GND / pot outer / buttons / LED cathodes / buzzer negative",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "ESP32",
+    "pin": "32",
+    "target": "Joystick VRx",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "ESP32",
+    "pin": "33",
+    "target": "Joystick VRy",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "ESP32",
+    "pin": "27",
+    "target": "Joystick SW",
+    "series_component": "",
+    "note": "Buttons to GND; internal pull-up"
+  },
+  {
+    "board": "ESP32",
+    "pin": "25",
+    "target": "Main connect button",
+    "series_component": "",
+    "note": "Buttons to GND; internal pull-up"
+  },
+  {
+    "board": "ESP32",
+    "pin": "34",
+    "target": "Potentiometer wiper",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "ESP32",
+    "pin": "18",
+    "target": "green LED anode",
+    "series_component": "330 ohm",
+    "note": "LED cathode to GND"
+  },
+  {
+    "board": "ESP32",
+    "pin": "19",
+    "target": "yellow LED anode",
+    "series_component": "330 ohm",
+    "note": "LED cathode to GND"
+  },
+  {
+    "board": "ESP32",
+    "pin": "23",
+    "target": "red LED anode",
+    "series_component": "330 ohm",
+    "note": "LED cathode to GND"
+  },
+  {
+    "board": "ESP32",
+    "pin": "26",
+    "target": "Buzzer positive",
+    "series_component": "1 kohm",
+    "note": "Buzzer negative to GND; device type unresolved"
+  },
+  {
+    "board": "Uno",
+    "pin": "5V",
+    "target": "LCD VCC",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "Uno",
+    "pin": "GND",
+    "target": "LCD GND + display commons 3/8",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "Uno",
+    "pin": "A4",
+    "target": "LCD SDA",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "Uno",
+    "pin": "A5",
+    "target": "LCD SCL",
+    "series_component": "",
+    "note": ""
+  },
+  {
+    "board": "Uno",
+    "pin": "2",
+    "target": "5161AS pin 7 / a",
+    "series_component": "330 ohm",
+    "note": "Front view, decimal at bottom right"
+  },
+  {
+    "board": "Uno",
+    "pin": "3",
+    "target": "5161AS pin 6 / b",
+    "series_component": "330 ohm",
+    "note": "Front view, decimal at bottom right"
+  },
+  {
+    "board": "Uno",
+    "pin": "4",
+    "target": "5161AS pin 4 / c",
+    "series_component": "330 ohm",
+    "note": "Front view, decimal at bottom right"
+  },
+  {
+    "board": "Uno",
+    "pin": "5",
+    "target": "5161AS pin 2 / d",
+    "series_component": "330 ohm",
+    "note": "Front view, decimal at bottom right"
+  },
+  {
+    "board": "Uno",
+    "pin": "6",
+    "target": "5161AS pin 1 / e",
+    "series_component": "330 ohm",
+    "note": "Front view, decimal at bottom right"
+  },
+  {
+    "board": "Uno",
+    "pin": "7",
+    "target": "5161AS pin 9 / f",
+    "series_component": "330 ohm",
+    "note": "Front view, decimal at bottom right"
+  },
+  {
+    "board": "Uno",
+    "pin": "8",
+    "target": "5161AS pin 10 / g",
+    "series_component": "330 ohm",
+    "note": "Front view, decimal at bottom right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D2",
+    "target": "Keypad tail contact 1",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D3",
+    "target": "Keypad tail contact 2",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D4",
+    "target": "Keypad tail contact 3",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D5",
+    "target": "Keypad tail contact 4",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D6",
+    "target": "Keypad tail contact 5",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D7",
+    "target": "Keypad tail contact 6",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D8",
+    "target": "Keypad tail contact 7",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D9",
+    "target": "Keypad tail contact 8",
+    "series_component": "",
+    "note": "Contact order: front view, tail down, left to right"
+  },
+  {
+    "board": "Nano",
+    "pin": "D10",
+    "target": "Emergency button",
+    "series_component": "",
+    "note": "Other button terminal to Nano GND"
+  }
+]
